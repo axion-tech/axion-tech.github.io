@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>净净 - 技术支持</title>
+    <link rel="icon" type="image/png" href="jingjing.png">
+    <link rel="apple-touch-icon" href="jingjing.png">
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
@@ -13,50 +15,101 @@
             margin: 0 auto;
             padding: 20px;
             color: #333;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
         }
 
         h1 {
             color: #2c3e50;
             border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
+            padding-bottom: 15px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 35px;
+            font-size: 1.5em;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
         }
 
         .contact-box {
             background: #f8f9fa;
             border-radius: 8px;
-            padding: 20px;
-            margin: 20px 0;
+            padding: 25px;
+            margin: 25px 0;
+            border-left: 4px solid #3498db;
+        }
+
+        .contact-box h2 {
+            margin-top: 0;
+            color: #2c3e50;
+            border-left: none;
+            padding-left: 0;
+        }
+
+        .contact-box p {
+            margin: 10px 0;
+            color: #34495e;
         }
 
         .faq-item {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            border: 1px solid #eee;
         }
 
         .faq-question {
             font-weight: bold;
             color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+
+            .container {
+                padding: 20px;
+            }
         }
     </style>
 </head>
 
 <body>
-    <h1>净净 - 技术支持</h1>
+    <div class="container">
+        <h1>净净 - 技术支持</h1>
 
-    <div class="contact-box">
-        <h2>联系方式</h2>
-        <p>邮箱：functionsay@gmail.com</p>
-        <p>工作时间：周一至周五 9:00-18:00</p>
+        <div class="contact-box">
+            <h2>联系方式</h2>
+            <p>📧 邮箱：functionsay@gmail.com</p>
+            <p>⏰ 工作时间：周一至周五 9:00-18:00</p>
+        </div>
+
+        <h2>常见问题</h2>
+
+        <div class="faq-item">
+            <p class="faq-question">Q: 遇到问题怎么办？</p>
+            <p>A: 如果您在使用过程中遇到任何问题，可以尝试重启应用。如果问题仍然存在，请通过上方的邮箱联系我们。</p>
+        </div>
+
+        <h2>反馈建议</h2>
+        <div class="faq-item">
+            <p>如果您有任何建议或发现任何问题，欢迎随时联系我们。我们会认真对待每一条反馈，并尽快回复。</p>
+        </div>
     </div>
-
-    <h2>常见问题</h2>
-
-    <div class="faq-item">
-        <p class="faq-question">Q: 遇到问题怎么办？</p>
-        <p>A: 如果您在使用过程中遇到任何问题，可以尝试重启应用。如果问题仍然存在，请通过上方的邮箱联系我们。</p>
-    </div>
-
-    <h2>反馈建议</h2>
-    <p>如果您有任何建议或发现任何问题，欢迎随时联系我们。我们会认真对待每一条反馈，并尽快回复。</p>
 </body>
 
 </html>
